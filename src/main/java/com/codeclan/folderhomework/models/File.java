@@ -29,11 +29,10 @@ public class File {
     public File() {
     }
 
-    public File(String name, String extension, String size, Folder folder) {
+    public File(String name, String extension, String size) {
         this.name = name;
         this.extension = extension;
         this.size = size;
-        this.folder = folder;
     }
 
     public Long getId() {
